@@ -4,7 +4,10 @@
   "description": "Backend do site da comunidade CaquiCoders",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon ./dist/app.js",
+    "compile:dev": "tsc -w"
   },
   "repository": {
     "type": "git",
